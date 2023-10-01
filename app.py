@@ -23,7 +23,7 @@ fecha_fin = datetime(2023, 12, 28)
 # Itera para generar commits en fechas aleatorias dentro del rango definido.
 while fecha_inicio <= fecha_fin:
     # Genera un número aleatorio de commits para el día actual.
-    num_commits = randint(1, 20)
+    num_commits = randint(1, 50)
 
     # Crea la fecha y hora del commit dentro del rango deseado.
     fecha_commit = fecha_inicio + timedelta(hours=randint(0, 23), minutes=randint(0, 59), seconds=randint(0, 59))
