@@ -17,7 +17,7 @@ from random import randint
 from datetime import datetime, timedelta
 
 # Define la fecha de inicio y fin para la generación de commits (por ejemplo, un año).
-fecha_inicio = datetime(2023, 8, 1)
+fecha_inicio = datetime(2023, 10, 1)
 fecha_fin = datetime(2023, 12, 28)
 
 # Itera para generar commits en fechas aleatorias dentro del rango definido.
